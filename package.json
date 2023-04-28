@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node --max-old-space-size=24384 ./dist/index.js"
+  },
+  "dependencies": {
+    "@types/node": "^18.16.1",
+    "got": "^12.6.0"
+  }
+}
